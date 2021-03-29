@@ -72,21 +72,27 @@ header .row .navbar li {
   text-align: center;
 }
 
-.container span {
+.container .hrr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .hrr hr {
+  size: 2px;
+  border-width: 2px;
+  border-color: #41aae0;
+  width: 20px;
+  display: inline-block;
   text-align: center;
 }
 
-.container span hr {
-  size: 2px;
-  width: 20px;
-  color: #41aae0;
+.container .hrr .hr1 {
+  margin-right: 2px;
 }
 
 * {
