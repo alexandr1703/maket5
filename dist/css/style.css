@@ -335,6 +335,10 @@ header .row .col .header__buttons .blue__button {
   color: #41aae0;
 }
 
+#price .col__price .order button a {
+  color: #008ed6;
+}
+
 * {
   margin: 0;
   padding: 0;
