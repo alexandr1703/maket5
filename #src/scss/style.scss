@@ -1,8 +1,14 @@
-@import 'header', 'features';
+@import 'header', 'features', 'about', 'coment', 'price';
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+.container{
+    max-width: 1170px;
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -24,6 +30,12 @@ body{
     font-weight: 600;
     line-height: 48px;
     color: #1a1a1a;;
+}
+.title__white{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #fff;
 }
 .blue__button{
     max-width: 160px;
@@ -54,5 +66,21 @@ body{
         color:#fff;
         font-size: 14px;
         font-weight: 700;   
+    }
+}
+.hrr{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    hr{
+        size: 2px;
+        border-width: 2px;
+        border-color: #41aae0;
+        width: 20px;
+        display: inline-block;
+        text-align: center;
+        }
+    .hr1{
+        margin-right: 2px;
     }
 }

@@ -1,0 +1,70 @@
+#coment{
+    background-color: #000;
+    background-image: url(/img/Warstwa_8.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.7;
+    p{
+        text-align: center;
+    }
+    .slider__com{
+        .slide__com{
+            .com__text{
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 32px;
+                color: #fff;
+            }
+            .person{
+                display: flex;
+                justify-content: flex-start;
+                img{
+
+                }
+                .coment__about{
+                    display: flex;
+                    flex-direction: column;
+                    color:#fff;
+                    .name{
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                    .prof{
+                        font-weight: 700;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.black{
+    background: #000;
+    color: #fff;
+    padding: 66px 0;
+    width: 100%;
+    .black__content{
+        font-weight: 300;
+        line-height: 48px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .black__text{
+            color: #e0dfe0;
+            justify-self: flex-start;
+            font-size: 26px;
+            font-weight: 300;
+            font-family: "Source Sans Pro Light";
+            .str{
+                color: #fff;
+                font-weight: 400;
+                font-family: "Source Sans Pro Semibold", sans-serif;
+                
+            }
+        }
+    }
+        .black__buttons{
+
+        }
+}

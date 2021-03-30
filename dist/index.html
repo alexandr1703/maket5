@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">           
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -14,12 +16,22 @@
 <body>
    <header>
     <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <p class="logo1">LUCID</p>
+                <p class="logo2">ONEPAGE <br>THEME</p>
+            </div>
+            <ul class="navbar">
+                <li>Home</li>
+                <li>Features</li>
+                <li>About</li>
+                <li>Testimonials</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+            </ul>
+        </div>
         <div class="row">
             <div class="col">
-                <div class="logo">
-                    <p class="logo1">LUCID</p>
-                    <p class="logo2">ONEPAGE <br>THEME</p>
-                </div>
                 <div class="header__text">
                     <p class="blue__text">INTRODUCING LUCID THEME</p>
                     <h2 class="header__title">Carefully crafted and beautiful landing page.</h2>
@@ -31,42 +43,211 @@
                 </div>
             </div>
             <div class="col">
-                <ul class="navbar">
-                    <li>Home</li>
-                    <li>Features</li>
-                    <li>About</li>
-                    <li>Testimonials</li>
-                    <li>Pricing</li>
-                    <li>Contact</li>
-                </ul>
+                
                 <img src="/img/devices_kopia.png" alt="tel">
             </div>
         </div>
     </div>
 </header>
-   <div class="container">
-    <p class="blue__text">PRODUCT OVERVIEW</p>
-    <h4 class="title">
-        List of amazing features
-    </h4>
-    <div class="hrr"><hr class="hr1"><hr></div>
-    <div class="row">
-        <div class="col">
-            
+   <section id="features">
+    <div class="container">
+        <p class="blue__text">PRODUCT OVERVIEW</p>
+        <h4 class="title">
+            List of amazing features
+        </h4>
+        <div class="hrr"><hr class="hr1"><hr></div>
+        <div class="row row__feature">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="f_im">
+                    <img class="feature__image" src="/img/Monitor.png" alt="feature">
+                </div>
+                <h4 class="feature__title">Responsive</h4>
+                <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="f_im">
+                    <img class="feature__image" src="/img/Settings.png" alt="feature">
+                </div>
+                <h4 class="feature__title">Customizable</h4>
+                <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="f_im">
+                    <img class="feature__image" src="/img/Like.png" alt="feature">
+                </div>
+                <h4 class="feature__title">Lovely design</h4>
+                <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="f_im">
+                    <img class="feature__image" src="/img/Phone.png" alt="feature">
+                </div>
+                <h4 class="feature__title">Mobile Friendly</h4>
+                <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+            </div>
         </div>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
+    </div>
+</section>
+   <section id="about">
+   <div class="about1">
+    <div class="container about__container">
+        <div class="row">
+            <div class="col">
+                <img src="/img/devices.png" alt="about-im">
+            </div>
+            <div class="col col__about col__about1">
+                <p class="blue__text">
+                    DIP INTO THE DETAILS
+                </p>
+                <p class="title">
+                    Beautiful on every device
+                </p>
+                <div class="hrr__about"><hr class="hr1"><hr></div>
+                <p class="main__text">
+                    Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. 
+                </p>
+                <div class="about__char">
+                    <div class="about__charicon">
+                        <img src="/img/Cup.png" alt="char" width="16px" height="16px">
+                        <p class="char__text">Awesome design</p>
+                    </div>
+                    <div class="about__charicon">
+                        <img src="/img/Mouse.png" alt="char" width="10px" height="17px">
+                        <p class="char__text">Fully responsive</p>
+                    </div>
+                    <div class="about__charicon">
+                        <img src="/img/Energy.png" alt="char" width="11px" height="17px">
+                        <p class="char__text">Retina ready</p>
+                    </div>
+                    <div class="about__charicon">
+                        <img src="/img/Speedometer.png" alt="char" width="16px" height="16px">
+                        <p class="char__text">Tons of features and easy to use</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+    <div class="about2">
+        <div class="container about__container">
+            <div class="row row__about2">
+                <div class="col-12 col-lg-6 col__about col__about2">
+                    <p class="blue__text">
+                        DIP INTO THE DETAILS
+                    </p>
+                    <p class="title">
+                        Super easy to customize
+                    </p>
+                    <div class="hrr__about"><hr class="hr1"><hr></div>
+                    <p class="main__text">
+                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </p>
+    
+                </div>
+                <div class="col-12  col-lg-6">
+                    <img src="/img/iPhone_5.png" alt="aboutimg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <section id="coment">
+    <div class="container">
+        <p class="blue__text">
+            QUALITY HAS ITS PRICE
+        </p>
+        <p class="title__white">
+            Pricings & Plans
+        </p>
+        <div class="hrr"><hr class="hr1"><hr></div>
+        <div class="slider__com">
+            <div class="slide__com">
+                <p class="com__text">
+                    Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+                </p>
+                <div class="person">
+                    <img src="/img/Warstwa_7.png" alt="coment__img" class="coment__img">
+                    <div class="coment__about">
+                        <p class="name">John Doe</p>
+                        <p class="prof">CEO, THE RIVERS COMPANY</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="slide__com">
+                <p class="com__text">
+                    A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.
+                </p>
+                <div class="person">
+                    <img src="/img/Warstwa_16.png" alt="coment__img" class="coment__img">
+                    <div class="coment__about">
+                        <p class="name">Dean Winchester
+                        </p>
+                        <p class="prof">UX DESIGNER, GOOGLE INC.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="slide__com">
+                <p class="com__text">
+                    A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.
+                </p>
+                <div class="person">
+                    <img src="/img/Warstwa_16.png" alt="coment__img" class="coment__img">
+                    <div class="coment__about">
+                        <p class="name">Dean Winchester
+                        </p>
+                        <p class="prof">UX DESIGNER, GOOGLE INC.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<div class="black">
+    <div class="container">
+        <div class="black__content">
+            <p class="black__text"><span class="str">Like what you see?</span>Get this great theme now!</p>
+            <div class="black__buttons">
+                <button class="gray__button"><a href="#">VIEW FEATURES</a></button>
+                <button class="gray__button"><a href="#">DOWNLOAD NOW</a></button>
+            </div>
+        </div>
     </div>
 </div>
+   <section id="price">
+    <div class="container">
+        <p class="blue__text">
+            QUALITY HAS ITS PRICE
+        </p>
+        <p class="title">
+            Pricings & Plans
+        </p>
+        <div class="hrr"><hr class="hr1"><hr></div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 col__price">
+                <p class="price__title">FREE</p>
+                <div class="money">
+                    <p class="cina">$ <span class="num">0</span></p>
+                    <p class="main__text">/per mounth</p>
+                </div>
+                <div class="order">
+                    <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>  consectetur.</p>
+                    <button class="gray__button">ORDER NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
 
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
  <script src="js/script.js"></script>   
 </body>
 </html>
