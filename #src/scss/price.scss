@@ -3,7 +3,15 @@
     p{
         text-align: center;
     }
+    .blue__text{
+        margin-top: 60px;
+    }
+    .hrr{
+        margin-bottom: 45px;
+    }
     .col__price{
+        padding-left: 11px;
+        padding-right: 11px;
         .price__title{
             font-size: 24px;
             font-weight: 700;
@@ -22,15 +30,34 @@
             }
         }
         .order{
-            padding: 50px 0 28px;
+            padding: 50px 35px 28px;
             border: 1px solid #e0e0e0;
 
             span{
                 color: #41aae0;
             }
-            button{
-                a{
-                    color:#008ed6 ;
+            .btn{
+                display: flex;
+                justify-content: center;
+                button{
+                    border: 1px solid #e0e0e0;
+                    margin: 45px 0px 28px;
+                    width: 160px;
+                    a{
+                        color:#008ed6 ;
+                    }
+                }
+                button a:hover{
+                    .btn button{
+                        background: #008ed6;
+                    }
+                    .money{
+                        background: #008ed6;
+                    }
+                    .price__title{
+                        color: #008ed6;
+                    }
+
                 }
             }
         }

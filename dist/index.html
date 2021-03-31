@@ -10,27 +10,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">           
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+    crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
     <title>maket5</title>
 </head>
 <body>
    <header>
     <div class="container">
-        <div class="nav">
-            <div class="logo">
+        <nav class="navbar navbar-expand-md  navbar-dark nav">
+            <div class="navbar-brand logo" href="#">
                 <p class="logo1">LUCID</p>
                 <p class="logo2">ONEPAGE <br>THEME</p>
             </div>
-            <ul class="navbar">
-                <li>Home</li>
-                <li>Features</li>
-                <li>About</li>
-                <li>Testimonials</li>
-                <li>Pricing</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-        <div class="row">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="left__menu collapse navbar-collapse " id="collapsibleNavbar">
+              <ul class="navbar-nav navbarr">
+                <li class="nav-item home">
+                  <div><a class="nav-link" href="#">Home</a></div>
+                  <div class="hrr"><hr class="hr1"><hr></div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>     
+              </ul>
+              
+            </div>  
+          </nav>
+        <div class="row" >
             <div class="col">
                 <div class="header__text">
                     <p class="blue__text">INTRODUCING LUCID THEME</p>
@@ -44,7 +67,7 @@
             </div>
             <div class="col">
                 
-                <img src="/img/devices_kopia.png" alt="tel">
+                <img class="headimg" src="/img/devices_kopia.png" alt="tel">
             </div>
         </div>
     </div>
@@ -171,8 +194,7 @@
                         <p class="name">John Doe</p>
                         <p class="prof">CEO, THE RIVERS COMPANY</p>
                     </div>
-                </div>
-                
+                </div>  
             </div>
             <div class="slide__com">
                 <p class="com__text">
@@ -185,8 +207,7 @@
                         </p>
                         <p class="prof">UX DESIGNER, GOOGLE INC.</p>
                     </div>
-                </div>
-                
+                </div> 
             </div>
             <div class="slide__com">
                 <p class="com__text">
@@ -199,8 +220,7 @@
                         </p>
                         <p class="prof">UX DESIGNER, GOOGLE INC.</p>
                     </div>
-                </div>
-                
+                </div> 
             </div>
         </div>
     </div>
@@ -234,13 +254,116 @@
                 </div>
                 <div class="order">
                     <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>  consectetur.</p>
-                    <button class="gray__button"><a href="#">ORDER NOW</a></button>
+                    <div class="btn">
+                        <button class="gray__button"><a href="#">ORDER NOW</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col__price">
+                <p class="price__title">PERSONAL</p>
+                <div class="money">
+                    <p class="cina">$ <span class="num">25</span></p>
+                    <p class="main__text">/per mounth</p>
+                </div>
+                <div class="order">
+                    <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>  consectetur.</p>
+                    <div class="btn">
+                        <button class="gray__button"><a href="#">ORDER NOW</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col__price">
+                <p class="price__title">BUSSINES</p>
+                <div class="money">
+                    <p class="cina">$ <span class="num">50</span></p>
+                    <p class="main__text">/per mounth</p>
+                </div>
+                <div class="order">
+                    <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>  consectetur.</p>
+                    <div class="btn">
+                        <button class="gray__button"><a href="#">ORDER NOW</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col__price">
+                <p class="price__title">ULTIMATE</p>
+                <div class="money">
+                    <p class="cina">$ <span class="num">99</span></p>
+                    <p class="main__text">/per mounth</p>
+                </div>
+                <div class="order">
+                    <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>  consectetur.</p>
+                    <div class="btn">
+                        <button class="gray__button"><a href="#">ORDER NOW</a></button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+   <section id="contact">
+    <div class="container">
+        <p class="blue__text">
+            STAY IN TOUCH
+        </p>
+        <p class="title">
+            Contact us
+        </p>
+        <div class="hrr"><hr class="hr1"><hr></div>
+        <div class="row">
+            <div class="col">
+                <div class="contact__img">
+                    <img src="/img/Phone.png" alt="contact">
+                </div>
+                <p class="main__text">Phone: (415) 124-5678</p>
+                <p class="main__text">Fax: (412) 123-8290</p>
+            </div>
+            <div class="col">
+                <div class="contact__img">
+                    <img src="/img/Pointer.png" alt="contact">
+                </div>
+                <p class="main__text">1001 Brickell Bay Dr.</p>
+                <p class="main__text">Suite 1900 </p>
+                <p class="main__text">Miami, FL 33131 </p>
+            </div>
+            <div class="col">
+                <div class="contact__img">
+                    <img src="/img/Envelope.png" alt="contact">
+                </div>
+                <p class="main__text">support@yourname.com</p>
+            </div>
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="left__input">
+                    <input type="text" placeholder="NAME*">
+                    <input type="email" placeholder="EMAIL*">
+                    <input type="text" placeholder="SUBJECT*">
+                </div>
+                <div class="right__input">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="MESSAGE*"></textarea>
+                    <button type="submit" class="blue__button"><a href="#">SEND MESSAGE</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14372.515245786437!2d-80.18355943677349!3d25.766308552147507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b682c9752341%3A0x5eb4b6310d5c145!2zQnJpY2tlbGwgUGFyayBQYXRoLCBNaWFtaSwgRkwgMzMxMzEsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1617173379562!5m2!1suk!2sua" width="100%" height="370" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 
+</section>
+<footer id="footer">
+    <div class="container">
+        <div class="icon">
+            <a href="#"><i class="fab fa-behance"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>COPYRIGHT &copy 2014 LICID ONEPAGE THEME</p>
+    </div>
+</footer>
 
 
 

@@ -1,14 +1,19 @@
-@import 'header', 'features', 'about', 'coment', 'price';
+@import 'header', 'features', 'about', 'coment', 'price', 'contact', 'footer';
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 p{
     margin: 0;
 }
+
 .container{
     max-width: 1170px;
+    // padding-left: 0;
+    // padding-right: 0;
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -54,7 +59,7 @@ body{
 }
 .gray__button{
     max-width: 160px;
-    max-height: 50px;
+    height: 50px;
     background: none;
     border: none;
     padding:0 25px;
@@ -67,6 +72,10 @@ body{
         font-size: 14px;
         font-weight: 700;   
     }
+}
+.gray__button:hover{
+    background: #008ed6;
+    border: none;
 }
 .hrr{
     display: flex;
@@ -83,4 +92,23 @@ body{
     .hr1{
         margin-right: 2px;
     }
+}
+
+.slick-dots li button::before{
+    font-size: 10px;
+    background: none;
+    color: #4c494b;
+}
+.slick-dots li button:hover, .slick-dots li button:focus{
+    
+}
+.slick-dots li.slick-active button::before{
+    font-size: 20px;
+    color: #fff;
+}
+.slick-dots{
+    bottom:50px;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
 }

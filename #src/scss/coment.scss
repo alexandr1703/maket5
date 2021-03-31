@@ -3,23 +3,27 @@
     background-image: url(/img/Warstwa_8.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    opacity: 0.7;
+    opacity: 0.9;
+    padding-top: 60px;
     p{
         text-align: center;
     }
     .slider__com{
+        padding-bottom: 140px;
         .slide__com{
             .com__text{
                 font-size: 24px;
                 font-weight: 400;
                 line-height: 32px;
                 color: #fff;
+                text-align: left;
+                margin-bottom: 20px;
             }
             .person{
                 display: flex;
                 justify-content: flex-start;
                 img{
-
+                    margin-right: 20px;
                 }
                 .coment__about{
                     display: flex;
@@ -28,10 +32,12 @@
                     .name{
                         font-size: 16px;
                         font-weight: 400;
+                        text-align: left;
                     }
                     .prof{
                         font-weight: 700;
                         line-height: 26px;
+                        text-align: left;
                     }
                 }
             }
@@ -65,6 +71,8 @@
         }
     }
         .black__buttons{
-
+            button{
+                margin-left: 20px;
+            }
         }
 }
