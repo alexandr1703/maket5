@@ -22,10 +22,21 @@
             padding: 39px 0;
             border: 1px solid #e0e0e0;
             .cina{
-                font-size: 24px;
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .dol{
+                    align-self: flex-start;
+                    padding-top: 20px;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
                 .num{
                     font-size: 60px;
                     font-weight: 600;
+                    padding: 0;
                 }
             }
         }

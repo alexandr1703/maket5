@@ -1,12 +1,7 @@
 header {
-  background: rgba(0, 0, 0, 0.9);
-  background-image: url(/img/photo.png);
+  background-image: url(../img/bg2.png);
   background-repeat: no-repeat;
   color: #fff;
-}
-
-header .container {
-  margin: 0 0 0 106px;
 }
 
 header .container .nav {
@@ -19,7 +14,6 @@ header .container .nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 1px;
 }
 
 header .container .nav .logo {
@@ -29,7 +23,7 @@ header .container .nav .logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: -23px 0 0 0;
+  margin: 14px 0 0 -1px;
 }
 
 header .container .nav .logo .logo1 {
@@ -58,48 +52,51 @@ header .container .nav .left__menu {
 
 header .container .nav .left__menu .navbarr {
   list-style: none;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 58px;
-  color: #fffefe;
-  margin: 3px -46px 0 0px;
+  padding: 0px 6px 0 0px;
+  margin: 19px -28px 0px 0;
 }
 
 header .container .nav .left__menu .navbarr .nav-item {
-  margin-right: 22px;
+  margin-right: 23px;
 }
 
 header .container .nav .left__menu .navbarr .nav-item .nav-link {
   color: #fff;
   padding: 0;
-}
-
-header .container .nav .left__menu .navbarr .nav-item:last-of-type {
-  margin-right: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 58px;
+  color: #fffefe;
 }
 
 header .container .row {
-  padding-top: 40px;
+  margin: 34px 24px 0 0;
 }
 
 header .container .row .col {
   padding-right: 0;
+  padding-left: 0;
 }
 
 header .container .row .col .header__text {
   text-align: left;
+  margin: 24px 0 0 0;
 }
 
 header .container .row .col .header__text .header__title {
   font-size: 48px;
   font-weight: 600;
   line-height: 48px;
-  margin-top: 35px;
+  margin: 5px 0px 11px -1px;
   text-align: left;
+  letter-spacing: 0.02px span;
+  letter-spacing-letter-spacing: 0;
 }
 
 header .container .row .col .header__text .main__text {
   text-align: left;
+  letter-spacing: 0.3px;
+  padding: 0 77px 0 0px;
 }
 
 header .container .row .col .header__text .blue__text {
@@ -110,15 +107,16 @@ header .container .row .col .header__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 60px;
+  margin-top: 64px;
+  margin-left: 3px;
 }
 
-header .container .row .col .header__buttons .blue__button {
+header .container .row .col .header__buttons .gray__button {
   margin-right: 20px;
 }
 
 header .container .row .col .headimg {
-  margin: 0px -30px 0px 119px;
+  margin: 0px -37px 0 97px;
 }
 
 .home {
@@ -131,6 +129,31 @@ header .container .row .col .headimg {
           flex-direction: column;
   -ms-flex-line-pack: start;
       align-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: -25px 0 0 0;
+}
+
+.home .nav-item {
+  margin: 0 20px 0 0;
+}
+
+.home .hrr {
+  margin-right: 2px;
+  padding-top: -100px;
+  margin: -25px 0px 0px 4px;
+  width: 42px;
+  margin: -26px -2px 0 0;
+}
+
+.home .hrr .hr1 {
+  width: 19px;
+  margin-right: 2px;
+}
+
+.home .hrr hr {
+  margin-left: 1px;
 }
 
 #features {
@@ -393,12 +416,33 @@ header .container .row .col .headimg {
 }
 
 #price .col__price .money .cina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#price .col__price .money .cina .dol {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding-top: 20px;
   font-size: 24px;
+  font-weight: 600;
 }
 
 #price .col__price .money .cina .num {
   font-size: 60px;
   font-weight: 600;
+  padding: 0;
 }
 
 #price .col__price .order {
@@ -480,35 +524,35 @@ header .container .row .col .headimg {
 }
 
 #contact .form ::-webkit-input-placeholder {
-  color: #444348;
+  color: #efefef;
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;
 }
 
 #contact .form ::-moz-placeholder {
-  color: #444348;
+  color: #efefef;
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;
 }
 
 #contact .form :-ms-input-placeholder {
-  color: #444348;
+  color: #efefef;
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;
 }
 
 #contact .form ::-ms-input-placeholder {
-  color: #444348;
+  color: #efefef;
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;
 }
 
 #contact .form ::placeholder {
-  color: #444348;
+  color: #efefef;
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;
@@ -523,25 +567,75 @@ header .container .row .col .headimg {
   display: flex;
 }
 
-#contact .form form .left__input input {
+#contact .form form .left__input .inp {
   width: 100%;
-  border: 1px solid #444348;
+  border: 1px solid #efefef;
   border-radius: 5px;
   height: 50px;
   padding-left: 18px;
   background: #15141a;
   margin-bottom: 20px;
+  color: #fff;
 }
 
-#contact .form form .right__input textarea {
+#contact .form form .left__input .wrong_inp {
+  border: 1px solid red;
+}
+
+#contact .form form .left__input .wrong_inp ::-webkit-input-placeholder {
+  color: red;
+}
+
+#contact .form form .left__input .wrong_inp ::-moz-placeholder {
+  color: red;
+}
+
+#contact .form form .left__input .wrong_inp :-ms-input-placeholder {
+  color: red;
+}
+
+#contact .form form .left__input .wrong_inp ::-ms-input-placeholder {
+  color: red;
+}
+
+#contact .form form .left__input .wrong_inp ::placeholder {
+  color: red;
+}
+
+#contact .form form .right__input .message {
   resize: none;
   margin-left: 19px;
   background: #15141a;
   padding: 0px 20px;
-  border: 1px solid #444348;
+  border: 1px solid #efefef;
   border-radius: 5px;
   margin-bottom: 20px;
   max-height: 190px;
+  color: #fff;
+}
+
+#contact .form form .right__input .wrong_inp {
+  border: 1px solid red;
+}
+
+#contact .form form .right__input .wrong_inp ::-webkit-input-placeholder {
+  color: red;
+}
+
+#contact .form form .right__input .wrong_inp ::-moz-placeholder {
+  color: red;
+}
+
+#contact .form form .right__input .wrong_inp :-ms-input-placeholder {
+  color: red;
+}
+
+#contact .form form .right__input .wrong_inp ::-ms-input-placeholder {
+  color: red;
+}
+
+#contact .form form .right__input .wrong_inp ::placeholder {
+  color: red;
 }
 
 #contact .form form .right__input button {
@@ -606,7 +700,11 @@ p {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
+}
+
+.navbar {
+  padding: 0;
 }
 
 body {
@@ -618,6 +716,8 @@ body {
   font-size: 14px;
   font-weight: 700;
   color: #008ed6;
+  letter-spacing: 1.45px;
+  line-height: 48px;
 }
 
 .main__text {
@@ -658,7 +758,7 @@ body {
 }
 
 .gray__button {
-  max-width: 160px;
+  width: 162px;
   height: 50px;
   background: none;
   border: none;
@@ -670,9 +770,10 @@ body {
 .gray__button a {
   margin: 0 auto;
   text-decoration: none;
+  text-align: center;
   color: #fff;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .gray__button:hover {

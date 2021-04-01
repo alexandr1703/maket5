@@ -47,7 +47,7 @@
                     <a class="nav-link" href="#">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>     
               </ul>
               
@@ -61,7 +61,7 @@
                     <p class="main__text">Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
                 </div>
                 <div class="header__buttons">
-                    <button class="blue__button"><a href="#">DOWNLOAD NOW</a></button>
+                    <button class="gray__button"><a href="#">DOWNLOAD NOW</a></button>
                     <button class="gray__button"><a href="#">VIEW FEATURES</a></button>
                 </div>
             </div>
@@ -249,7 +249,7 @@
             <div class="col-12 col-md-6 col-lg-3 col__price">
                 <p class="price__title">FREE</p>
                 <div class="money">
-                    <p class="cina">$ <span class="num">0</span></p>
+                    <div class="cina"><p class="dol">$</p><p class="num">0</p></div>
                     <p class="main__text">/per mounth</p>
                 </div>
                 <div class="order">
@@ -262,7 +262,7 @@
             <div class="col-12 col-md-6 col-lg-3 col__price">
                 <p class="price__title">PERSONAL</p>
                 <div class="money">
-                    <p class="cina">$ <span class="num">25</span></p>
+                    <div class="cina"><p class="dol">$</p><p class="num">25</p></div>
                     <p class="main__text">/per mounth</p>
                 </div>
                 <div class="order">
@@ -275,7 +275,7 @@
             <div class="col-12 col-md-6 col-lg-3 col__price">
                 <p class="price__title">BUSSINES</p>
                 <div class="money">
-                    <p class="cina">$ <span class="num">50</span></p>
+                    <div class="cina"><p class="dol">$</p><p class="num">50</p></div>
                     <p class="main__text">/per mounth</p>
                 </div>
                 <div class="order">
@@ -288,7 +288,7 @@
             <div class="col-12 col-md-6 col-lg-3 col__price">
                 <p class="price__title">ULTIMATE</p>
                 <div class="money">
-                    <p class="cina">$ <span class="num">99</span></p>
+                    <div class="cina"><p class="dol">$</p><p class="num">99</p></div>
                     <p class="main__text">/per mounth</p>
                 </div>
                 <div class="order">
@@ -334,15 +334,15 @@
             </div>
         </div>
         <div class="form">
-            <form action="#">
+            <form action="fgfhgs" id="form" onsubmit="true">
                 <div class="left__input">
-                    <input type="text" placeholder="NAME*">
-                    <input type="email" placeholder="EMAIL*">
-                    <input type="text" placeholder="SUBJECT*">
+                    <input class="inpName inp" type="text" placeholder="NAME*">
+                    <input class="inpEmail inp" type="email" placeholder="EMAIL*">
+                    <input class="inpSubject inp" type="text" placeholder="SUBJECT*">
                 </div>
                 <div class="right__input">
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="MESSAGE*"></textarea>
-                    <button type="submit" class="blue__button"><a href="#">SEND MESSAGE</a></button>
+                    <textarea class="message inp" name="message" id="message" cols="30" rows="10" placeholder="MESSAGE*"></textarea>
+                    <button id="formButton" type="submit" class="blue__button"><a href="#">SEND MESSAGE</a></button>
                 </div>
             </form>
         </div>
