@@ -1,11 +1,20 @@
 $('.slider__com').slick({
-    infinite: true,
-    dots: true,
-    arrows:false,
-    // autoplay: true,
-    // autoplaySpeed:10000,
-    slidesToShow: 2,
-    slidesToScroll: 1
+  infinite: true,
+  dots: true,
+  arrows:false,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  responsive:[
+    {
+      breakpoint: 1150,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+  ]
 });
 
 
@@ -19,7 +28,7 @@ $("#formButton").click(function() {
     let regMail = /^\S+@\S+\.\S+$/;
     let errorArray = [0, 0, 0, 0];
     if (name==null || name=="" || name.search(nameReg)){
-        $(".inpName").attr("placeholder", "Заповніть це поле");
+        $(".inpName").attr("placeholder", "Fill in this field");
         $(".inpName").addClass("wrong_inp");
         errorArray[0] = 1;
     } else {
@@ -28,7 +37,7 @@ $("#formButton").click(function() {
     }
 
     if(subject==null || subject=="" || subject.search(nameReg)){
-        $(".inpSubject").attr("placeholder", "Заповніть це поле");
+        $(".inpSubject").attr("placeholder", "Fill in this field");
         $(".inpSubject").addClass("wrong_inp");
         errorArray[1] = 1;
     } else {
@@ -37,7 +46,7 @@ $("#formButton").click(function() {
     }
 
     if(email==null || email=="" || email.search(regMail)) {
-        $(".inpEmail").attr("placeholder", "Заповніть це поле");
+        $(".inpEmail").attr("placeholder", "Fill in this field");
         $(".inpEmail").addClass("wrong_inp");
         errorArray[2] = 1;
     } else {
@@ -46,7 +55,7 @@ $("#formButton").click(function() {
     }
 
     if(message==null || message=="" || message.search(nameReg)){
-        $(".message").attr("placeholder", "Заповніть це поле");
+        $(".message").attr("placeholder", "Fill in this field");
         $(".message").addClass("wrong_inp");
         errorArray[3] = 1;
       } else {
@@ -68,5 +77,25 @@ $("#formButton").click(function() {
       return true;
     }
   });
+ 
 
-  
+  $(window).scroll(function(){
+    let height = $(window).scrollTop();
+    if(height > 0){
+      $('.nav__sect').addClass('scrolled');
+    }
+    else{
+      $('.nav__sect').removeClass('scrolled');
+    }
+    
+});
+$(".navbar-toggler").click(function(){
+  $(".nav__sect").addClass('bgg')
+});
+
+
+$(".nav-link").click(function(){
+  $(".nav__sect").removeClass('bgg')
+  $(".left__menu").addClass('colapsing')
+  $(".left__menu").removeClass('show')
+});

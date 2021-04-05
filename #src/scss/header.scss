@@ -9,14 +9,7 @@ header{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            position: fixed;
-            top: 0;
             width: 1170px;
-            z-index: 7;
-            
-            // top: 0;
-            // right: 0;
-            
             .logo{
                 display: flex;
                 align-items: center;
@@ -44,10 +37,12 @@ header{
                 .navbarr{
                     list-style: none;
                     padding: 0px 6px 0 0px;
-                    margin: 13px -28px 0px 0;
+                    margin: 19px -28px 0px 0;
                     .nav-item{
                         .hrr{
-                            display: none;
+                            hr{
+                                border-color: transparent;
+                            }
                         }
                         margin-right: 23px;
                         .nav-link{
@@ -62,12 +57,11 @@ header{
                     }
                     .nav-item:hover{
                         .hrr{
-                            display: flex;
+                            hr{
+                                border-color: #008ed6;
+                            }
                         }
                     }
-                    // .nav-item:last-of-type{
-                    //     margin-right: 0;
-                    // }
                 }
             }
         }
@@ -146,9 +140,27 @@ header{
         }
     }
 }
+.nav__sect{
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 7;
+}
+.scrolled{
+    background: #151519;
+    animation-duration: .5s;
+}
+.bgg{
+    background: #151519;
+}
 
 @media (max-width:1200px) {
-    .nav{
-        width: 90%;
+    header{
+        .container{
+            .nav{
+                width: 100%;
+            }
+        }
     }
 }

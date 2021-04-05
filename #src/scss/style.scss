@@ -1,4 +1,4 @@
-@import 'header', 'features', 'about', 'coment', 'price', 'contact', 'footer';
+@import 'header', 'features', 'about', 'coment', 'price', 'contact', 'footer', 'mobile';
 *{
     margin: 0;
     padding: 0;
@@ -81,7 +81,7 @@ body{
 }
 .gray__button:hover{
     background: #008ed6;
-    border: none;
+    border:2px solid transparent;
 }
 .hrr{
     display: flex;
@@ -90,7 +90,7 @@ body{
     hr{
         size: 2px;
         border-width: 2px;
-        border-color: #41aae0;
+        border-color: #008ed6;
         width: 20px;
         display: inline-block;
         text-align: center;
@@ -109,11 +109,11 @@ body{
     
 }
 .slick-dots li.slick-active button::before{
-    font-size: 20px;
+    font-size: 17px;
     color: #fff;
 }
 .slick-dots{
-    bottom:50px;
+    bottom:0px;
 }
 .slick-dotted.slick-slider {
     margin-bottom: 0;

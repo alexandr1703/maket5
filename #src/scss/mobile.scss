@@ -1,0 +1,48 @@
+/*header*/
+@media (max-width:989px) {
+header{
+    .container{
+        .row{
+            .col-img{
+                display: none;
+            }
+            .col-text{
+                margin:0 auto;
+                .header__text{
+                    text-align: center;
+                    .header__title{
+                        text-align: center;
+                    }
+                    .blue__text{
+                        text-align: center;
+                    }
+                    .main__text{
+                        text-align: center;
+                        padding-right: 0px;
+                    }
+                }
+                .header__buttons{
+                    padding-bottom: 30px;
+                    margin: 59px auto 0;
+                   
+                }
+            }
+        }   
+    }
+}
+}
+@media(max-width:767px){
+    header{
+        .container{
+            .nav{
+                .left__menu{
+                    .navbarr{
+                        text-align: center;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+/*features*/

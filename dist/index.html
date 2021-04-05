@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">           
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">           
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
     crossorigin="anonymous" />
@@ -18,64 +19,68 @@
     <title>maket5</title>
 </head>
 <body>
-   <header>
-    <div class="container">
-        <nav class="navbar navbar-expand-md  navbar-dark nav">
-            <div class="navbar-brand logo" href="#">
-                <p class="logo1">LUCID</p>
-                <p class="logo2">ONEPAGE <br>THEME</p>
+   <header id="header">
+ <div class="nav__sect">
+  <div class="container">
+    <nav class="navbar navbar-expand-md  navbar-dark nav">
+        <div class="navbar-brand logo" href="#">
+            <p class="logo1">LUCID</p>
+            <p class="logo2">ONEPAGE <br>THEME</p>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="left__menu collapse navbar-collapse " id="collapsibleNavbar">
+          <ul class="navbar-nav navbarr">
+            <li class="nav-item home">
+              <div><a class="nav-link" href="#header">Home</a></div>
+              <div class="hrr"><hr class="hr1"><hr></div>
+            </li>
+            <li class="nav-item home">
+              <a class="nav-link" href="#features">Features</a>
+              <div class="hrr"><hr class="hr1"><hr></div>
+            </li>
+            <li class="nav-item home">
+                <a class="nav-link" href="#about">About</a>
+               <div class="hrr"><hr class="hr1"><hr></div>
+            </li> 
+            <li class="nav-item home">
+                <a class="nav-link" href="#coment">Testimonials</a>
+                <div class="hrr"><hr class="hr1"><hr></div>
+            </li>
+            <li class="nav-item home">
+                <a class="nav-link" href="#price">Pricing</a>
+                <div class="hrr"><hr class="hr1"><hr></div>
+            </li>
+            <li class="nav-item home">
+                <a class="nav-link" href="#contact">Contact</a>
+                <div class="hrr"><hr class="hr1"><hr></div>
+            </li>     
+          </ul>   
+        </div>  
+  </nav>
+</div>
+ </div>
+
+
+  <div class="container">  
+    <div class="row" >
+        <div class="col col-text">
+            <div class="header__text">
+                <p class="blue__text">INTRODUCING LUCID THEME</p>
+                <h2 class="header__title">Carefully crafted and beautiful landing page.</h2>
+                <p class="main__text">Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="left__menu collapse navbar-collapse " id="collapsibleNavbar">
-              <ul class="navbar-nav navbarr">
-                <li class="nav-item home">
-                  <div><a class="nav-link" href="#">Home</a></div>
-                  <div class="hrr"><hr class="hr1"><hr></div>
-                </li>
-                <li class="nav-item home">
-                  <a class="nav-link" href="#">Features</a>
-                  <div class="hrr"><hr class="hr1"><hr></div>
-                </li>
-                <li class="nav-item home">
-                  <a class="nav-link" href="#">About</a>
-                  <div class="hrr"><hr class="hr1"><hr></div>
-                </li> 
-                <li class="nav-item home">
-                    <a class="nav-link" href="#">Testimonials</a>
-                    <div class="hrr"><hr class="hr1"><hr></div>
-                </li>
-                <li class="nav-item home">
-                    <a class="nav-link" href="#">Pricing</a>
-                    <div class="hrr"><hr class="hr1"><hr></div>
-                </li>
-                <li class="nav-item home">
-                    <a class="nav-link" href="#contact">Contact</a>
-                    <div class="hrr"><hr class="hr1"><hr></div>
-                </li>     
-              </ul>
-              
-            </div>  
-          </nav>
-        <div class="row" >
-            <div class="col">
-                <div class="header__text">
-                    <p class="blue__text">INTRODUCING LUCID THEME</p>
-                    <h2 class="header__title">Carefully crafted and beautiful landing page.</h2>
-                    <p class="main__text">Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
-                </div>
-                <div class="header__buttons">
-                    <button class="gray__button"><a href="#">DOWNLOAD NOW</a></button>
-                    <button class="gray__button"><a href="#">VIEW FEATURES</a></button>
-                </div>
-            </div>
-            <div class="col">
-                
-                <img class="headimg" src="/img/devices_kopia.png" alt="tel">
+            <div class="header__buttons">
+                <button class="gray__button"><a href="#">DOWNLOAD NOW</a></button>
+                <button class="gray__button"><a href="#">VIEW FEATURES</a></button>
             </div>
         </div>
+        <div class="col col-img">  
+            <img class="headimg" src="/img/devices_kopia.png" alt="tel">
+        </div>
     </div>
+  </div>
 </header>
    <section id="features">
     <div class="container">
@@ -227,13 +232,52 @@
                     </div>
                 </div> 
             </div>
+            <div class="slide__com">
+                <p class="com__text">
+                    A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.
+                </p>
+                <div class="person">
+                    <img src="/img/Warstwa_16.png" alt="coment__img" class="coment__img">
+                    <div class="coment__about">
+                        <p class="name">Dean Winchester
+                        </p>
+                        <p class="prof">UX DESIGNER, GOOGLE INC.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="slide__com">
+                <p class="com__text">
+                    A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.
+                </p>
+                <div class="person">
+                    <img src="/img/Warstwa_16.png" alt="coment__img" class="coment__img">
+                    <div class="coment__about">
+                        <p class="name">Dean Winchester
+                        </p>
+                        <p class="prof">UX DESIGNER, GOOGLE INC.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="slide__com">
+                <p class="com__text">
+                    A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.
+                </p>
+                <div class="person">
+                    <img src="/img/Warstwa_16.png" alt="coment__img" class="coment__img">
+                    <div class="coment__about">
+                        <p class="name">Dean Winchester
+                        </p>
+                        <p class="prof">UX DESIGNER, GOOGLE INC.</p>
+                    </div>
+                </div> 
+            </div>
         </div>
     </div>
 </section>
 <div class="black">
     <div class="container">
         <div class="black__content">
-            <p class="black__text"><span class="str">Like what you see?</span>Get this great theme now!</p>
+            <p class="black__text"><span class="str">Like what you see? </span> Get this great theme now!</p>
             <div class="black__buttons">
                 <button class="gray__button"><a href="#">VIEW FEATURES</a></button>
                 <button class="gray__button"><a href="#">DOWNLOAD NOW</a></button>
@@ -255,7 +299,7 @@
                 <p class="price__title">FREE</p>
                 <div class="money">
                     <div class="cina"><p class="dol">$</p><p class="num">0</p></div>
-                    <p class="main__text">/per mounth</p>
+                    <p class="main__text">/per month</p>
                 </div>
                 <div class="order">
                     <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>  consectetur.</p>
@@ -268,7 +312,7 @@
                 <p class="price__title">PERSONAL</p>
                 <div class="money">
                     <div class="cina"><p class="dol">$</p><p class="num">25</p></div>
-                    <p class="main__text">/per mounth</p>
+                    <p class="main__text">/per month</p>
                 </div>
                 <div class="order">
                     <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>  consectetur.</p>
@@ -278,10 +322,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 col__price">
-                <p class="price__title">BUSSINES</p>
+                <p class="price__title">BUSINESS</p>
                 <div class="money">
                     <div class="cina"><p class="dol">$</p><p class="num">50</p></div>
-                    <p class="main__text">/per mounth</p>
+                    <p class="main__text">/per month</p>
                 </div>
                 <div class="order">
                     <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>  consectetur.</p>
@@ -294,7 +338,7 @@
                 <p class="price__title">ULTIMATE</p>
                 <div class="money">
                     <div class="cina"><p class="dol">$</p><p class="num">99</p></div>
-                    <p class="main__text">/per mounth</p>
+                    <p class="main__text">/per month</p>
                 </div>
                 <div class="order">
                     <p class="main__text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span>lacinia</span>  consectetur.</p>
@@ -332,7 +376,7 @@
                 <p class="main__text">Miami, FL 33131 </p>
             </div>
             <div class="col">
-                <div class="contact__img">
+                <div class="contact__img env">
                     <img src="/img/Envelope.png" alt="contact">
                 </div>
                 <p class="main__text">support@yourname.com</p>
@@ -341,12 +385,12 @@
         <div class="form">
             <form action="fgfhgs" id="form" onsubmit="true">
                 <div class="left__input">
-                    <input class="inpName inp" type="text" placeholder="NAME*">
-                    <input class="inpEmail inp" type="email" placeholder="EMAIL*">
-                    <input class="inpSubject inp" type="text" placeholder="SUBJECT*">
+                    <input class="inpName inp" type="text" placeholder="NAME *">
+                    <input class="inpEmail inp" type="email" placeholder="EMAIL *">
+                    <input class="inpSubject inp" type="text" placeholder="SUBJECT *">
                 </div>
                 <div class="right__input">
-                    <textarea class="message inp" name="message" id="message" cols="30" rows="10" placeholder="MESSAGE*"></textarea>
+                    <textarea class="message inp" name="message" id="message" cols="30" rows="10" placeholder="MESSAGE *"></textarea>
                     <button id="formButton" type="submit" class="blue__button"><a href="#">SEND MESSAGE</a></button>
                 </div>
             </form>

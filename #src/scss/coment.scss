@@ -1,29 +1,42 @@
 #coment{
     background-color: #000;
     background-image: url(/img/Warstwa_8.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
-    opacity: 0.9;
-    padding-top: 60px;
+    // opacity: 0.9;
+    padding-top: 44px;
+    padding-bottom: 57px;
     p{
         text-align: center;
     }
+    .title__white{
+        margin-bottom: 10px;
+    }
     .slider__com{
-        padding-bottom: 140px;
+        padding-bottom: 157px;
+        margin-top: 68px;
+        max-width: 1200px;
+        margin: 68px auto 0;
         .slide__com{
+            margin-left: 0px;
+            padding: 0 14px 0 0px;
             .com__text{
                 font-size: 24px;
+                font-style: italic;
                 font-weight: 400;
                 line-height: 32px;
                 color: #fff;
                 text-align: left;
-                margin-bottom: 20px;
-            }
+                margin-bottom: 26px;
+                padding: 2px 36px 0 0px;
+                letter-spacing: 0.3px;
+                }
             .person{
                 display: flex;
                 justify-content: flex-start;
                 img{
-                    margin-right: 20px;
+                    margin: -2px 24px 0px 0;
                 }
                 .coment__about{
                     display: flex;
@@ -35,20 +48,24 @@
                         text-align: left;
                     }
                     .prof{
-                        font-weight: 700;
+                        font-size: 14px;
                         line-height: 26px;
+                        font-weight: 700;
                         text-align: left;
+                        margin-top: 3px;
                     }
                 }
             }
         }
     }
     
+   
 }
 .black{
     background: #000;
     color: #fff;
-    padding: 66px 0;
+    padding: 58px 0 59px 0;
+    letter-spacing: .06px;
     width: 100%;
     .black__content{
         font-weight: 300;
@@ -59,20 +76,24 @@
         .black__text{
             color: #e0dfe0;
             justify-self: flex-start;
-            font-size: 26px;
+            font-size: 36px;
+            line-height: 48px;
             font-weight: 300;
-            font-family: "Source Sans Pro Light";
+            margin-left: -1px;
             .str{
                 color: #fff;
-                font-weight: 400;
-                font-family: "Source Sans Pro Semibold", sans-serif;
-                
+                font-weight: 600;
             }
         }
     }
         .black__buttons{
+            // padding: 3px 0px 0 0;
             button{
-                margin-left: 20px;
+                margin-left: 13px;
+                height: 53px;
+                a{
+                    margin: 0;
+                }
             }
         }
 }
