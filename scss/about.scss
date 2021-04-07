@@ -1,0 +1,113 @@
+#about{
+    .about__container{
+        .col__about{
+            text-align: left;
+            padding-bottom: 19px;
+            .blue__text{
+                padding-top: 1px;
+            }
+            .blue__text1{
+                padding-top: 0px;
+            }
+            .title{
+                font-size: 36px;
+                font-weight: 600;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 48px;
+                margin-bottom: 6px;
+            }
+            .title2{
+                margin-bottom: 8px;
+                letter-spacing: 0.08px;
+            }
+            .main__text{
+                padding: 8px 93px 0 0;
+                span{
+                    letter-spacing: 0.09px;
+                    padding: 0px 0px 0px 4px;       
+                }
+            }
+            .hrr__about{
+                display: flex;
+                width: 100%;
+                justify-content: flex-start;
+                
+                hr{
+                    size: 2px;
+                    border-width: 2px;
+                    border-color: #41aae0;
+                    width: 20px;
+                    display: inline-block;
+                    text-align: center;
+                    }
+                .hr1{
+                    margin-right: 2px;
+                }
+            }
+            .about__char{
+                margin-top: 29px;
+                .about__charicon{
+                    display: flex;
+                    align-items: center;
+                    .char__text{
+                        margin-left: 10px;
+                        line-height: 36px;
+                    }
+                    
+                }
+                .ch1{
+                    .awesome{
+                        line-height: 30px;
+                        margin: -1px 0px 0px 9px
+                    }
+                }
+                .ch2{
+                    padding: 3px 0px 0px 3px;
+                    img{
+                        margin: 0 2px 0 0;
+                    }
+                }
+                .ch3{
+                    padding: 0px 0 0 3px;
+                    img{
+                        margin: 3px 1px 0px 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+.about2{
+    background: #f2f2f2;
+    padding-top: 52px;
+    padding-bottom: 0px;
+    .blue__text{
+        letter-spacing: 1.42px;
+    }
+    .main__text{
+        margin: -2px 0px 0 0px;
+    }
+    img{
+        margin: -19px 0 0 -129px;
+    }
+
+}
+.about1{
+    padding-top: 66px;
+    img{
+        margin: 0 0 0 20px;
+    }
+    .about__char{
+        img{
+            margin: 0;
+        }
+    }
+}
+.col__about1{
+    margin-top: 34px;
+}
+.col__about2{
+    margin-top: 60px;
+
+}

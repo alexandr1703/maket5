@@ -1,0 +1,78 @@
+#about .about__container .col__about {
+  text-align: left;
+  padding-bottom: 19px; }
+  #about .about__container .col__about .blue__text {
+    padding-top: 1px; }
+  #about .about__container .col__about .blue__text1 {
+    padding-top: 0px; }
+  #about .about__container .col__about .title {
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    margin-bottom: 6px; }
+  #about .about__container .col__about .title2 {
+    margin-bottom: 8px;
+    letter-spacing: 0.08px; }
+  #about .about__container .col__about .main__text {
+    padding: 8px 93px 0 0; }
+    #about .about__container .col__about .main__text span {
+      letter-spacing: 0.09px;
+      padding: 0px 0px 0px 4px; }
+  #about .about__container .col__about .hrr__about {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start; }
+    #about .about__container .col__about .hrr__about hr {
+      size: 2px;
+      border-width: 2px;
+      border-color: #41aae0;
+      width: 20px;
+      display: inline-block;
+      text-align: center; }
+    #about .about__container .col__about .hrr__about .hr1 {
+      margin-right: 2px; }
+  #about .about__container .col__about .about__char {
+    margin-top: 29px; }
+    #about .about__container .col__about .about__char .about__charicon {
+      display: flex;
+      align-items: center; }
+      #about .about__container .col__about .about__char .about__charicon .char__text {
+        margin-left: 10px;
+        line-height: 36px; }
+    #about .about__container .col__about .about__char .ch1 .awesome {
+      line-height: 30px;
+      margin: -1px 0px 0px 9px; }
+    #about .about__container .col__about .about__char .ch2 {
+      padding: 3px 0px 0px 3px; }
+      #about .about__container .col__about .about__char .ch2 img {
+        margin: 0 2px 0 0; }
+    #about .about__container .col__about .about__char .ch3 {
+      padding: 0px 0 0 3px; }
+      #about .about__container .col__about .about__char .ch3 img {
+        margin: 3px 1px 0px 0px; }
+
+.about2 {
+  background: #f2f2f2;
+  padding-top: 52px;
+  padding-bottom: 0px; }
+  .about2 .blue__text {
+    letter-spacing: 1.42px; }
+  .about2 .main__text {
+    margin: -2px 0px 0 0px; }
+  .about2 img {
+    margin: -19px 0 0 -129px; }
+
+.about1 {
+  padding-top: 66px; }
+  .about1 img {
+    margin: 0 0 0 20px; }
+  .about1 .about__char img {
+    margin: 0; }
+
+.col__about1 {
+  margin-top: 34px; }
+
+.col__about2 {
+  margin-top: 60px; }

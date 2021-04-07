@@ -1,0 +1,36 @@
+footer {
+  background: #15141a;
+  padding: 47px 41px 31px 0; }
+  footer .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    footer .container .icon {
+      padding: 1px 0 0 39px; }
+      footer .container .icon .fa-behance {
+        font-size: 19px; }
+      footer .container .icon .fa-dribbble {
+        font-size: 18px; }
+      footer .container .icon .fa-twitter {
+        font-size: 19px; }
+      footer .container .icon .fa-facebook-f {
+        font-size: 19px;
+        margin: 0 0 0 4px; }
+      footer .container .icon .fa-linkedin-in {
+        font-size: 22px; }
+      footer .container .icon i {
+        font-size: 20px;
+        margin: 0 -4px 0 -1px; }
+      footer .container .icon a {
+        color: #444348;
+        margin: 0 16px; }
+      footer .container .icon a:hover {
+        color: #008ed6; }
+    footer .container p {
+      color: #444348;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 48px;
+      padding: 5px 0px 0 43px;
+      letter-spacing: 0.2px; }

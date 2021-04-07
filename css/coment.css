@@ -1,0 +1,76 @@
+#coment {
+  background-color: #333;
+  background-image: url(../img/Warstwa_8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  padding-top: 44px;
+  padding-bottom: 57px; }
+  #coment p {
+    text-align: center; }
+  #coment .title__white {
+    margin-bottom: 10px; }
+  #coment .slider__com {
+    padding-bottom: 157px;
+    margin-top: 68px;
+    max-width: 1200px;
+    margin-top: 68px; }
+    #coment .slider__com .slide__com {
+      padding: 0; }
+      #coment .slider__com .slide__com .com__text {
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 32px;
+        color: #fff;
+        text-align: left;
+        margin-bottom: 26px;
+        padding: 2px 0px 0 0px;
+        letter-spacing: 0.3px; }
+      #coment .slider__com .slide__com .person {
+        display: flex;
+        justify-content: flex-start; }
+        #coment .slider__com .slide__com .person img {
+          margin: -2px 24px 0px 0; }
+        #coment .slider__com .slide__com .person .coment__about {
+          display: flex;
+          flex-direction: column;
+          color: #fff; }
+          #coment .slider__com .slide__com .person .coment__about .name {
+            font-size: 16px;
+            font-weight: 400;
+            text-align: left; }
+          #coment .slider__com .slide__com .person .coment__about .prof {
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 700;
+            text-align: left;
+            margin-top: 3px; }
+
+.black {
+  background: #000;
+  color: #fff;
+  padding: 58px 0 59px 0;
+  letter-spacing: .06px;
+  width: 100%; }
+  .black .black__content {
+    font-weight: 300;
+    line-height: 48px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    .black .black__content .black__text {
+      color: #e0dfe0;
+      justify-self: flex-start;
+      font-size: 36px;
+      line-height: 48px;
+      font-weight: 300;
+      margin-left: -1px; }
+      .black .black__content .black__text .str {
+        color: #fff;
+        font-weight: 600; }
+  .black .black__buttons button {
+    margin-left: 13px;
+    height: 53px; }
+    .black .black__buttons button a {
+      margin: 0; }
