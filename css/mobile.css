@@ -1,4 +1,8 @@
 /*header*/
+@media (max-width: 1200px) {
+  header .container .nav {
+    width: 100%; } }
+
 @media (max-width: 989px) {
   header .container .row .col-img {
     display: none; }
@@ -51,22 +55,37 @@
         padding-bottom: 15px; } }
 
 /*about*/
-@media (max-width: 991px) {
-  #about .about__container .row__about .col__about img {
-    max-width: 100%;
-    height: auto; }
-  #about .about__container .row__about .col__about2 p {
-    text-align: right; }
-  #about .about__container .row__about .col__about2 .main__text {
-    padding: 0; }
-  #about .about__container .row__about .col__about2 .hrr__about {
-    justify-content: flex-end; }
+@media (max-width: 1024px) {
+  #about {
+    padding-right: 0px;
+    padding-left: 0px; }
+    #about .about__container {
+      padding-right: 22px;
+      padding-left: 22px; }
+      #about .about__container .row__about .col__about img {
+        max-width: 100%;
+        height: auto; }
+      #about .about__container .row__about .col__about2 p {
+        text-align: right; }
+      #about .about__container .row__about .col__about2 .main__text {
+        padding: 0; }
+      #about .about__container .row__about .col__about2 .hrr__about {
+        justify-content: flex-end; }
   .about2 img {
     max-width: 100%;
     height: auto;
     margin: 0; } }
 
 /*coments*/
+@media (max-width: 1150px) {
+  .slick-dots li button::before {
+    width: 12px;
+    height: 12px;
+    font-size: 24px; }
+  #coment .container {
+    padding-right: 30px;
+    padding-left: 30px; } }
+
 @media (min-width: 701px) and (max-width: 1053px) {
   .black {
     padding: 30px 0; }
@@ -134,7 +153,9 @@
     padding-left: 0px;
     padding-right: 0px; }
     #contact .container .row {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      margin-left: 0px;
+      margin-right: 0px; }
     #contact .container .form {
       bottom: 0px;
       z-index: 1;
@@ -143,7 +164,7 @@
       #contact .container .form #form {
         display: flex;
         flex-direction: column;
-        padding: 60px 65px 40px 60px; }
+        padding: 60px 7px 40px 6px; }
         #contact .container .form #form .left__input {
           width: 100%; }
           #contact .container .form #form .left__input .inp {
@@ -172,3 +193,9 @@
       font-size: 24px; }
   #contact .container .row .col__contact:last-of-type {
     border-bottom: none; } }
+
+/*footer*/
+@media (max-width: 575px) {
+  #footer p {
+    padding: 15px 0 0 25px;
+    line-height: 0; } }

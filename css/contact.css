@@ -1,5 +1,6 @@
 #contact {
-  background: #ededed; }
+  background: #ededed;
+  margin-bottom: -4px; }
   #contact p {
     text-align: center; }
   #contact .blue__text {

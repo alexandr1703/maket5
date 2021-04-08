@@ -112,7 +112,7 @@ header {
 
 @media (max-width: 1200px) {
   header .container .nav {
-    width: 95%; } }
+    width: 90%; } }
 
 #features {
   border-bottom: 1px solid #eeeeee; }
@@ -275,13 +275,14 @@ header {
           #coment .slider__com .slide__com .person .coment__about .name {
             font-size: 16px;
             font-weight: 400;
-            text-align: left; }
+            text-align: left;
+            margin-top: 1px; }
           #coment .slider__com .slide__com .person .coment__about .prof {
             font-size: 14px;
             line-height: 26px;
             font-weight: 700;
             text-align: left;
-            margin-top: 3px; }
+            margin-top: 2px; }
 
 .black {
   background: #000;
@@ -316,19 +317,25 @@ header {
   padding-top: 41px; }
   #price p {
     text-align: center; }
+  #price .blue__text {
+    margin: 0 0 -8px 0; }
   #price .title {
-    margin-bottom: 9px; }
+    margin-bottom: 10px;
+    margin-right: 1px;
+    letter-spacing: -0.67px;
+    font-size: 38px; }
   #price .hrr {
     margin-bottom: 54px; }
   #price .col__price {
     padding-left: 12px;
     padding-right: 14px; }
     #price .col__price .price__title {
-      font-size: 24px;
-      font-weight: 700;
+      font-size: 25px;
+      font-weight: 900;
       line-height: 20px;
       padding: 26px 0px 22px 0;
-      border: 1px solid #e0e0e0; }
+      border: 1px solid #e0e0e0;
+      letter-spacing: -0.6px; }
     #price .col__price .money {
       padding-top: 17px;
       padding-bottom: 34px;
@@ -381,7 +388,8 @@ header {
       color: #fff; }
 
 #contact {
-  background: #ededed; }
+  background: #ededed;
+  margin-bottom: -4px; }
   #contact p {
     text-align: center; }
   #contact .blue__text {
@@ -458,7 +466,7 @@ header {
 
 footer {
   background: #15141a;
-  padding: 47px 41px 31px 0; }
+  padding: 51px 41px 28px 0; }
   footer .container {
     display: flex;
     justify-content: center;
@@ -494,6 +502,10 @@ footer {
       letter-spacing: 0.2px; }
 
 /*header*/
+@media (max-width: 1200px) {
+  header .container .nav {
+    width: 100%; } }
+
 @media (max-width: 989px) {
   header .container .row .col-img {
     display: none; }
@@ -546,22 +558,37 @@ footer {
         padding-bottom: 15px; } }
 
 /*about*/
-@media (max-width: 991px) {
-  #about .about__container .row__about .col__about img {
-    max-width: 100%;
-    height: auto; }
-  #about .about__container .row__about .col__about2 p {
-    text-align: right; }
-  #about .about__container .row__about .col__about2 .main__text {
-    padding: 0; }
-  #about .about__container .row__about .col__about2 .hrr__about {
-    justify-content: flex-end; }
+@media (max-width: 1024px) {
+  #about {
+    padding-right: 0px;
+    padding-left: 0px; }
+    #about .about__container {
+      padding-right: 22px;
+      padding-left: 22px; }
+      #about .about__container .row__about .col__about img {
+        max-width: 100%;
+        height: auto; }
+      #about .about__container .row__about .col__about2 p {
+        text-align: right; }
+      #about .about__container .row__about .col__about2 .main__text {
+        padding: 0; }
+      #about .about__container .row__about .col__about2 .hrr__about {
+        justify-content: flex-end; }
   .about2 img {
     max-width: 100%;
     height: auto;
     margin: 0; } }
 
 /*coments*/
+@media (max-width: 1150px) {
+  .slick-dots li button::before {
+    width: 12px;
+    height: 12px;
+    font-size: 24px; }
+  #coment .container {
+    padding-right: 30px;
+    padding-left: 30px; } }
+
 @media (min-width: 701px) and (max-width: 1053px) {
   .black {
     padding: 30px 0; }
@@ -629,7 +656,9 @@ footer {
     padding-left: 0px;
     padding-right: 0px; }
     #contact .container .row {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      margin-left: 0px;
+      margin-right: 0px; }
     #contact .container .form {
       bottom: 0px;
       z-index: 1;
@@ -638,7 +667,7 @@ footer {
       #contact .container .form #form {
         display: flex;
         flex-direction: column;
-        padding: 60px 65px 40px 60px; }
+        padding: 60px 7px 40px 6px; }
         #contact .container .form #form .left__input {
           width: 100%; }
           #contact .container .form #form .left__input .inp {
@@ -667,6 +696,12 @@ footer {
       font-size: 24px; }
   #contact .container .row .col__contact:last-of-type {
     border-bottom: none; } }
+
+/*footer*/
+@media (max-width: 575px) {
+  #footer p {
+    padding: 15px 0 0 25px;
+    line-height: 0; } }
 
 * {
   margin: 0;
